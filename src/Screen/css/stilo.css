@@ -1,0 +1,211 @@
+.deta{
+    width: 150px;
+  }
+.tama{
+  display: flex;
+}
+.detas{
+  width: 220px;
+  height:220px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.botones-flotantes {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.boton-flotante {
+  background-color: #7e644e;
+  color: #6e4b2e;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+  transition: background-color 0.3s ease;
+}
+
+.boton-flotante:hover {
+  background-color: #906847;
+}
+
+/* //////////////////////////////barra de nabegacion flotante///////////////////////////////////////////// */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.barra-navegacion {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.barra-navegacion ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.barra-navegacion ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.barra-navegacion ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+/* /mostrar presio/ */
+.floating-header {
+  position: fixed;
+  bottom: 10px; /* Ajusta la distancia desde la parte inferior */
+  left: 10px;/* Ajusta la distancia desde el borde izquierdo */
+  z-index: 999; /* Ajusta la posición en el eje Z */
+  background-color: #7e644e; /* Color de fondo */
+  color: #ccc;
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+/* /////////////////// */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #7e644e;
+  color: #fff;
+}
+
+.navbar-logo {
+  width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+  margin-right: 9px;
+}
+
+.navbar-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #232e36;
+}
+/* ////////////////////////tarjeta//////////////////////// */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid #7e644e;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.espa{
+  height: 1PX;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  background-color: #7e644e;
+  align-items: center;
+  /* height: 100vh; Ajusta la altura según sea necesario */
+}
+
+.img-container img {
+  width: 280px; /* Tamaño deseado de la imagen */
+  height: 310px; /* Esto mantendrá la proporción de aspecto */
+}
+
+.card-content {
+  padding: 20px;
+  background-color: #7e644e;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #d6d8d9;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-primary,
+.button-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #968d5b;
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: #c2b496;
+  color: #000;
+}
+/*estilo ingredientes*/
+.tab{
+  margin-left: 2px;
+}
+.h3{
+  color: #ffffff;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Cambia la fuente según tus preferencias */
+  font-size: 36px; /* Tamaño de la letra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+}
+li,h3,h1{
+  color: #ffffff;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Cambia la fuente según tus preferencias */
+  font-size: 36px; /* Tamaño de la letra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+}

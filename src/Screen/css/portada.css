@@ -1,0 +1,64 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+  /* margin: 0; */
+  font-family: Arial, sans-serif; /* Cambia la fuente según sea necesario */
+}
+  .sentro{
+    width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    height: 300px;
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+  }
+
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: white; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  } 
+
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Cambia la fuente según tus preferencias */
+    font-size: 36px; /* Tamaño de la letra */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+  }
+
+  p {
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Cambia la fuente según tus preferencias */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  footer {
+    background-color: #7e644e;
+    /* color: white; */
+    padding: 1em;
+    text-align: center;
+  }
+  /* Estilos para centrar el body */
+
+
+/* Estilos adicionales para los elementos dentro del body */
+a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  color: blue; /* Cambia el color del texto del enlace */
+}
+
+p {
+  text-align: center; /* Centra el texto horizontalmente */
+}

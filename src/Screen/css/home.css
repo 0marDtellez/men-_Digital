@@ -1,0 +1,14 @@
+h1{
+  color: rgb(255, 255, 255);
+}
+.fondo{
+  width: 350px;
+  border: 1px solid #7e644e;
+  border-radius: 8px;
+  overflow: hidden; 
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

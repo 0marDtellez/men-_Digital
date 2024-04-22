@@ -1,0 +1,127 @@
+.tamaño{
+  display: flex;
+  margin:2px;
+}
+.ta{
+  width: 300px; 
+  height:300px;
+  margin:2px;
+}
+.box{
+  width: 355px;
+  height:470px;
+  display: flex;
+} 
+.boxCar{
+  width: 355px;
+  height:800px;
+  display: flex;
+}
+.tama{
+  width: 300px;
+  height:300px;
+  display:flex;
+  margin:1px;
+}
+.tamaB{
+  width: 200px;
+  height:250px;
+  display:flex;
+  margin:1px;
+}
+.deta{
+  width: 2900px;
+}
+.responsive{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      150px,
+      1fr
+    )
+  );
+}
+.home{
+  font-family: 'Arial', sans-serif;
+  color: #b0aaaa;
+}
+.fondo{
+  background-image:url("https://i.pinimg.com/564x/f4/e8/a6/f4e8a61fb70bfdaa46dfde894acc6e2f.jpg");
+}
+.colorf{
+  background-color: #9c8d2b;
+}
+.tamaño{ 
+  width: 50px;
+  height:50px;
+}
+.tamañoLink{
+  width: 50px;
+  height:50px;
+  margin:1px;
+}
+.tablas{
+  margin: 20px;
+}
+/* h1,h3,h4,label{
+  color: #b0aaaa;
+} */
+.h{
+  background-color:#7e644e;
+  color: #b0aaaa;
+  justify-content: center;
+  align-items: center;
+}
+/* /CRUD/ */
+/* .card-image img {
+  width: 280px;
+  border-radius: 5px 0 0 5px;
+} */
+
+.cardi {
+  border: 1px solid #7e644e;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 1100px;
+}
+
+.content {
+  display: flex;
+  background-color:#7e644e;
+}
+
+.text {
+  flex: 1;
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.ul {
+  padding-left: 20px;
+  color: #b0aaaa;
+}
+
+.image {
+  width: 285px;
+}
+
+img {
+  width: 280px;
+  height: auto;
+}
+/* /boton/ */
+.buton{
+  background-color: #7e644e;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
